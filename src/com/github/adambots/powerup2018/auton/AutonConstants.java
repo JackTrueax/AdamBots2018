@@ -28,9 +28,25 @@ public class AutonConstants {
 	public static final double MIDDLE_LEFT_DIAGONAL_TIME = 1.7; //was 1.65
 	public static final double MIDDLE_RIGHT_DIAGONAL_TIME = 1.14; //was 1.2 before
 	public static final double MIDDLE_STRAIGHT_TIME = 2.4; // 2.35 was 2.2
+	//middle switch cube 2
+	public static final double MIDDLE_LEFT_SIDE_DIAGONAL_BACK_TIME = 1.7;
+	public static final double MIDDLE_RIGHT_SIDE_DIAGONAL_BACK_TIME = 1.14;
+	public static final double DIAGONAL_STRAIGHT_BACK_SPEED = -0.25;
+	public static final double DIAGONAL_SIDE_BACK_SPEED = -7.5; 
+	public static final double MIDDLE_BACK_TIME = 0.5;
+	public static final double MIDDLE_BACK_SPEED = -0.3;
+	public static final double MIDDLE_STRAIGHT_CUBE_TIME = 1.0;
+	public static final double SWITCH_ELEVATOR_LOWER_SPEED = -1.0;
+	public static final double SWITCH_INTAKE_SPEED = -1.0;
+	public static final double MIDDLE_CUBE_OUTTAKE_TIME = 1.0;
+	
+	//Needed documentation of of game pad buttons want to verify what works. Must be reviewed with prog and drive team
+	//Over ride for climb? needed
+	//Cross over auton is needed, even dropping in scale but only if its reliable
+	//Switch cycle of pick up drop is wanted to be constantly repeated for the duration of middle switch auton
 	
 	
-	//Scale
+	//Scale  
 	public static final double SCALE_ELEVATOR_LOWER_SPEED = -1;
 	public static final double SCALE_STRAIGHT_END_TIME = 4.6;//was 3.0, not proven 4/10 
 	public static final double SCALE_TURN_TIME = 2.0;
